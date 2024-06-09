@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #BFD8BD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+
+.form-container, .result-container, .info-container {
+    background-color: #f1fff0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 49, 13, 0.3);
+    width: 45%;
+}
+
+.info-container {
+    width: 90%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Dosis", sans-serif;
+    color: #003f26;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-family: "Dosis", sans-serif;
+    color: #003f26;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.cuantidad {
+    display: flex;
+    padding: 5px;
+}
+
+.cuantidad input {
+    width: 30%;
+    margin: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultados {
+    margin-top: 20px;
+}
+
+#resultados p {
+    margin: 5px 0;
+}
